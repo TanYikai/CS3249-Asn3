@@ -10,7 +10,7 @@ class RadialDisplayView extends Component {
             <React.Fragment>
                 <circle cx={viewboxCenter} cy={viewboxCenter} r={radius * 1.1} stroke="#efefef" strokeWidth="9" fill="#fefdf9" />
                 <defs>
-                    <linearGradient id="gradient" >
+                    <linearGradient id="gradient">
                         <stop offset="0%" stopColor="#289beb" />
                         <stop offset="100%" stopColor="#ff6a63" />
                     </linearGradient>
