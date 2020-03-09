@@ -3,6 +3,7 @@
 Thermostat demo: https://TanYikai.github.io/CS3249-Asn3/
 
 The main files are located in folder final_thermostat/src/
+
 App.js - Host the main ModelView component for rendering. 
 
 ModelView.js-Renders the view components and calls the model functions. This file also contains UI logic for calculating position and angle of the radial slider. It also contains the state for current temperature, target temperature and mode of the thermostat.
